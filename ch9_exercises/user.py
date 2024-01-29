@@ -22,14 +22,14 @@ class User:
     def reset_login_attempts(self):
         self.login_attempts = 0
 
-user1 = User("mr", "michi", 2, "02/28/2023")
-user1.greet_user()
-user1.describe_user()
+# user1 = User("mr", "michi", 2, "02/28/2023")
+# user1.greet_user()
+# user1.describe_user()
 
-user2 = User("mrs", "puff", 40, "08/07/1999")
-user2.increment_login_attempts()
-user2.increment_login_attempts()
-user2.increment_login_attempts()
-print(user2.login_attempts)
-user2.reset_login_attempts()
-print(user2.login_attempts)
+# user2 = User("mrs", "puff", 40, "08/07/1999")
+# user2.increment_login_attempts()
+# user2.increment_login_attempts()
+# user2.increment_login_attempts()
+# print(user2.login_attempts)
+# user2.reset_login_attempts()
+# print(user2.login_attempts)
