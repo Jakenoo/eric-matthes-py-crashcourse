@@ -1,4 +1,6 @@
-# 1/29/2024; file originally written by Eric Matthes
+# 1/29/2024; code originally written/drafted by Eric Matthes (Py Crash Course)
+# 2/1/2024; created a separate module for Car class and related subclasses
+
 class Car:
     """class representing a car"""
     def __init__(self, make, model, year):
@@ -50,13 +52,3 @@ class Battery:
             range = 225
         
         print(f"The battery range can handle approx. {range} miles.")
-
-sample_car = ElectricCar("Electric", "Car", 2024)
-# there's a method for the line below but it was cool figuring out this also
-# sample_car.battery.battery_size = 65
-sample_car.battery.describe_battery()
-sample_car.battery.get_range()
-
-sample_car.battery.upgrade_battery()
-sample_car.battery.describe_battery()
-sample_car.battery.get_range()
