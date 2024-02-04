@@ -13,15 +13,17 @@ drawn_code = ""
 # print(f"Here is your draw: {drawn_code}")
 
 i = 1
+drawcount = 1
 while drawn_code not in winning_codes:
+# i is for the if statement, drawn_code tracks how many draws we are at
     drawn_code = drawn_code + str(choice(sample_char))
+    # if statement verifies whether we need to draw again or not
     if i % 5 == 0:
         drawn_code = ""
+        drawcount += 1
     i += 1
 
-# Printing i-1, since I couldn't figure out how to get the modulo operator to
-# work with i = 0 well
-print(f"You won! It took {i-1} draws to get here! Your winning code was " + 
+print(f"You won! It took {drawcount} draws to get here! Your winning code was " + 
       f"{drawn_code}")
 
 # Verifying if drawn code is a winning code
