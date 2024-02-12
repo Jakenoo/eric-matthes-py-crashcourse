@@ -1,0 +1,8 @@
+In Python you can create classes that are made up of methods that perform certain
+tasks. Classes can model real-world scenarios or objects in an attempt to simulate
+how these scenarios or objects work
+In Python you can access the Python Standard Library that stores a set of modules.
+These modules vary in uses, but are a nice appendage.
+In Python you can define a function to perform one very specific task. You might
+find functions within a class, or maybe even a function that works in conjunction
+with an already-defined class.
