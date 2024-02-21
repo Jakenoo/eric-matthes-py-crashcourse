@@ -1,4 +1,5 @@
 #2/20/2024; exercise 10-11
+# This is really the same program as the example in the last section of ch 10
 
 from pathlib import Path
 import json
